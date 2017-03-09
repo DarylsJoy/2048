@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html{
+  font-family: "Microsoft YaHei UI";
+  background: linear-gradient(90deg, rgb(238, 238, 238), rgb(215, 215, 215));
+}
+header{
+  display: block;
+  margin: 40px auto 0;
+  position: relative;
+  height: 100px;
+}
+@media screen and (max-width: 600px) {
+  header{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  header{
+    width: 500px;
+  }
+}
+header h1{
+  font-size: 60px;
+  border-bottom: 2px solid #d5b751;
+  color: #4e4e4e;
+  position: absolute;
+  left: 10px;
+}
+header p{
+  font-size: 26px;
+  position: absolute;
+  color: #4e4e4e;
+  right: 10px;
+  bottom: 0;
+}
+#newGameBtn{
+  position: absolute;
+  right: 10px;
+  padding: 8px 40px;
+  cursor: pointer;
+  background: #d5b751;
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: '幼圆';
+  color: #ffffff;
+  outline: none;
+}
+#newGameBtn:hover{
+  background: #aa8e45;
+}
+
+#grid-container{
+  /*width: 460px;*/
+  /*height: 460px;*/
+  /*padding: 20px;*/
+  /*border-radius: 10px;*/
+  margin: 20px auto;
+  background: #bbada0;
+  position: relative;
+}
+.grid-cell{
+  /*width: 100px;*/
+  /*height: 100px;*/
+  border-radius: 6px;
+  background: #ccc0b3;
+  position: absolute;
+}
+.number-cell{
+  font-family: "Microsoft YaHei UI";
+  position: absolute;
+  /*font-size: 50px;*/
+  /*line-height: 100px;*/
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+footer{
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+footer p{
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  margin-left: -2.5em;
+}
+footer a{
+  color: #222222;
+  text-decoration: none;
+}
